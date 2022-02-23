@@ -72,4 +72,7 @@
     max-width: 250px;
 }
 
+#about .container div button:hover{
+    transform: scale(1.2);
+}
 
