@@ -39,7 +39,8 @@
 
     </header>
     <!-- SECTION FIRST -->
-    <section id="lm-bg-section">
+    <!-- START  -->
+    <section id="start">
 
         <div class="container py-3">
 
@@ -65,7 +66,8 @@
 
     </section>
     <!-- SECTION SECOND -->
-    <section>
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
 
         <div class="container py-3">
 
@@ -101,8 +103,8 @@
     </section>
 
     <!-- SECTION THIRD -->
-
-    <section id="lm-bg-section">
+    <!-- ABOUT-->
+    <section id="about">
 
         <div class="container py-3">
 
@@ -118,19 +120,28 @@
 
             </div>
 
-            <div class="row row-cols-1 text-center px-5">
+            <div class="row py-2">
 
-                <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet, voluptatibus
+                <p class="col-8 offset-2 col-md-4 offset-lg-1 col-lg-5">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Fugit
+                    eveniet,
+                    voluptatibus
                     consectetur eum accusantium iusto quos dignissimos sit minus aut eaque asperiores pariatur vero?
                     Voluptatum nam dignissimos quas a hic?</p>
 
-                <p class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet, voluptatibus
+                <p class="col-8 offset-2 offset-md-0 col-md-4 col-lg-5">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                    Fugit
+                    eveniet,
+                    voluptatibus
                     consectetur eum accusantium iusto quos dignissimos sit minus aut eaque asperiores pariatur vero?
                     Voluptatum nam dignissimos quas a hic?</p>
 
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center py-3">
 
                 <button class="col-3 py-2 border border-2 rounded bg-transparent text-white">
                     <i class="fa-solid fa-download"></i>
@@ -143,8 +154,8 @@
     </section>
 
     <!-- SECTION FOURTH -->
-
-    <section>
+    <!-- CONTACT  -->
+    <section id="contact">
 
         <div class="container py-5 text-dark">
 
@@ -160,66 +171,80 @@
 
             </div>
 
-            <div class="row row-cols-1">
+            <div class="row">
 
-                <div class="col-7 mx-auto">
-                    <label for="fname">Name</label>
-                    <input class="d-block" type="text" id="fname" name="fname">
+                <div class="col-8 offset-2 col-lg-10 offset-lg-1">
+
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control border-0 border-bottom" id="name" placeholder="Lucio">
+
+                    <label for="e-mail">Email Address</label>
+                    <input type="email" class="form-control border-0 border-bottom" id="e-mail"
+                        placeholder="lucio@example.com">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="number" class="form-control border-0 border-bottom" id="phone" placeholder="+39">
+
+                    <label for="message">Example textarea</label>
+                    <textarea class="form-control border-0 border-bottom" id="message" rows="3"></textarea>
+
+                    <input type="submit" class="lm-submit text-white border-0 rounded py-2 px-3" value="Send">
                 </div>
-
-                <div class="col-7 mx-auto">
-                    <label for="fname">Email Address</label>
-                    <input class="d-block" type="text" id="fname" name="fname">
-                </div>
-
-                <div class="col-7 mx-auto">
-                    <label for="fname">Phone Number</label>
-                    <input class="d-block" type="text" id="fname" name="fname">
-                </div>
-
-                <div class="col-7 mx-auto">
-                    <label for="fname">Message</label>
-                    <input class="d-block lm-height" type="text" id="fname" name="fname">
-                </div>
-
-
-                <button class="col mx-auto border rounded lm-send text-white">
-                    Send
-                </button>
 
 
             </div>
-
-
-
 
         </div>
 
     </section>
 
-
+    <!-- FOOTER  -->
     <footer>
-
+        <!-- INFO-FOOTER  -->
         <div class="info-footer">
 
             <div class="container">
 
-                <div class="row">
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
+                <div class="row text-center py-5">
+
+                    <div class="col-12 col-md-4">
+                        <p>Location</p>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+
+                        <p>AROUND THE WEB</p>
+
+                        <i class="fa-brands fa-facebook-f p-2 border rounded-circle"></i>
+
+                        <i class="fa-brands fa-google-plus-g p-2 border rounded-circle"></i>
+                        <i class="fa-brands fa-twitter p-2 border rounded-circle"></i>
+
+                        <i class="fa-brands fa-linkedin-in p-2 border rounded-circle"></i>
+                    </div>
+
+                    <div class="offset-1 col-10 col-md-4 offset-md-0">
+
+                        <p>ABOUT FREELANCER</p>
+                        <P>Freelance is a free to use,open source Bootstrap
+                            theme created by <span class="lm-span">Start Bootstrap</span>.
+                        </P>
+                    </div>
                 </div>
 
             </div>
 
         </div>
-
-        <div class="copyright">
+        <!-- COPYRIGHT FOOTER  -->
+        <div class="copyright-footer">
 
             <div class="container">
 
-                <div class="row">
-                    <div class="col"></div>
+                <div class="row text-center">
+                    <div class="col py-5">
+                        Copyright &copy; Your Website 2019
+                    </div>
                 </div>
 
             </div>
