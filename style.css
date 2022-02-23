@@ -4,8 +4,13 @@
 }
 
 /* COLOR  */
-#lm-bg-header{
+
+.lm-bg-header{
     background-color: #2c3e50;
+}
+
+.lm-btn{
+    color: white !important;
 }
 
 #start{
@@ -25,9 +30,7 @@
 }
 
 /* CUSTOMS */
-.lm-btn{
-    color: grey;
-}
+
 
 .lm-submit{
     background-color: #1abc9c;
@@ -42,4 +45,31 @@
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+.info-footer p{
+    margin: 0;
+}
+
+.info-footer a{
+    text-decoration: none;
+}
+
+.info-footer i:hover{
+    color: blue;
+}
+
+.info-footer a i{
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#start .col-5{
+    max-width: 250px;
+}
+
 

@@ -22,27 +22,34 @@
 
 <body class="text-white">
 
-    <header id="lm-bg-header">
+    <header id="header-bootstrap">
 
-        <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light lm-bg-header">
 
-            <div class="row py-3 justify-content-between align-items-center gx-1">
+            <div class="container">
 
-                <div class="col-5 text-white">START BOOTSTRAP</div>
-
-                <button class="col-1 lm-btn border rounded bg-transparent">
-                    <i class="fa-solid fa-bars"></i>
+                <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler lm-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                        <a class="nav-link text-white" href="#">CONTACT</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
 
     </header>
     <!-- SECTION FIRST -->
     <!-- START  -->
     <section id="start">
 
-        <div class="container py-3">
+        <div class="container py-3 pb-md-5">
 
             <div class="row row-cols-1 text-center justify-content-center">
 
@@ -82,20 +89,31 @@
                 </div>
             </div>
 
-            <div class="row row-cols-1 justify-content-center g-3">
+            <div class="row row-cols-1 justify-content-center g-3 row-cols-md-2 row-cols-lg-3 pb-lg-5 ">
 
-                <img class="col" src="img/cabin.png" alt="cabin">
+                <div class="col">
+                    <img class="w-100 rounded-3" src="img/cabin.png" alt="cabin">
+                </div>
 
-                <img class="col" src="img/cake.png" alt="cake">
+                <div class="col">
+                    <img class="w-100 rounded-3" src="img/cake.png" alt="cake">
+                </div>
 
-                <img class="col" src="img/circus.png" alt="circus">
+                <div class="col">
+                    <img class="w-100 rounded-3" src="img/circus.png" alt="circus">
+                </div>
 
-                <img class="col" src="img/game.png" alt="game">
+                <div class="col">
+                    <img class="w-100 rounded-3" src="img/game.png" alt="game">
+                </div>
 
-                <img class="col" src="img/safe.png" alt="safe">
+                <div class="col">
+                    <img class="w-100 rounded-3" src="img/safe.png" alt="safe">
+                </div>
 
-                <img class="col" src="img/submarine.png" alt="submarine">
-
+                <div class="col">
+                    <img class="w-100 rounded-3" src="img/submarine.png" alt="submarine">
+                </div>
             </div>
 
         </div>
@@ -106,7 +124,7 @@
     <!-- ABOUT-->
     <section id="about">
 
-        <div class="container py-3">
+        <div class="container py-3 py-md-5">
 
             <div class="row row-cols-1 text-center py-3">
 
@@ -203,25 +221,34 @@
         <!-- INFO-FOOTER  -->
         <div class="info-footer">
 
-            <div class="container">
+            <div class="container py-md-2">
 
                 <div class="row text-center py-5">
 
                     <div class="col-12 col-md-4">
-                        <p>Location</p>
+                        <p>LOCATION</p>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 py-4 py-md-0">
 
                         <p>AROUND THE WEB</p>
 
-                        <i class="fa-brands fa-facebook-f p-2 border rounded-circle"></i>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
 
-                        <i class="fa-brands fa-google-plus-g p-2 border rounded-circle"></i>
-                        <i class="fa-brands fa-twitter p-2 border rounded-circle"></i>
+                        <a href="#">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
 
-                        <i class="fa-brands fa-linkedin-in p-2 border rounded-circle"></i>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
                     </div>
 
                     <div class="offset-1 col-10 col-md-4 offset-md-0">
